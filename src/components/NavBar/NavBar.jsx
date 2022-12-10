@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   let [open, setOpen] = useState(false);
-  
+
   let Links = [
     { name: "Home", link: "/home" },
-    { name: "About", link: "/" },
-    { name: "Skill", link: "/" },
-    { name: "Portfolio", link: "/" },
-    { name: "Contact", link: "/" },
+    { name: "About", link: "/about" },
+    { name: "Skill", link: "/skill" },
+    { name: "Portfolio", link: "/portfolio" },
+    { name: "Contact", link: "/contact" },
   ];
 
   return (
