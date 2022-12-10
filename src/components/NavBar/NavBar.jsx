@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   let [open, setOpen] = useState(false);
   
   let Links = [
-    { name: "Home", link: "/" },
+    { name: "Home", link: "/home" },
     { name: "About", link: "/" },
     { name: "Skill", link: "/" },
     { name: "Portfolio", link: "/" },
@@ -38,12 +39,12 @@ const NavBar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-              <a
-                href={link.link}
+              <Link
+                to={link.link}
                 className="text-gray-800 hover:text-gray-400 duration-500"
               >
                 {link.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
