@@ -21,9 +21,9 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="font-semibold">
-        <Link to="/portfolio" className="rounded-lg">
+        <a href="#portfolio" className="rounded-lg">
         Portfolio
-        </Link>
+        </a>
       </li>
       <li className="font-semibold">
         <a href="#contact" className="rounded-lg">
