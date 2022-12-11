@@ -3,7 +3,7 @@ import nahidul from '../../asset/nahidul.jpg';
 
 const About = () => {
   return (
-   <div id="about" className=" lg:mt-40">
+   <div id="about" className="lg:mt-40">
      <div className="hero">
       <div className="hero-content flex-col-reverse lg:flex-row">
         <img
