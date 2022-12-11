@@ -1,6 +1,7 @@
 import React from "react";
 import nahidul from "../../asset/nahidul.jpg";
 import About from "../About/About";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       </div>
     </div>
     <About></About>
+    <Contact></Contact>
     </>
   );
 };
