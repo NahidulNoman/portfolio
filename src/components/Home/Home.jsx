@@ -13,7 +13,7 @@ const Home = () => {
         <div className="hero-content flex-col-reverse lg:flex-row-reverse">
           <img
             src={nahidul}
-            className="w-52 rounded-full shadow-2xl lg:ml-32"
+            className="w-52 rounded-full shadow-2xl lg:ml-32 hover:scale-125 hover:duration-500"
             alt=""
           />
           <div>
@@ -50,7 +50,7 @@ const Home = () => {
               <br /> of learning/working experience. I love to work with <br />{" "}
               logic and build it by programming.
             </p>
-            <button className="btn btn-primary">
+            <button className="btn btn-outline hover:bg-sky-700 hover:scale-90 hover:text-white hover:duration-700">
               <a
                 target={`_blank`}
                 href="https://drive.google.com/file/d/1lQNC_QNCKTdAr4Bq5XyKl9nf0xQCqlKZ/view?usp=sharing"

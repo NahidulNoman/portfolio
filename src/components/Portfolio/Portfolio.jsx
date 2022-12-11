@@ -12,7 +12,8 @@ const Portfolio = () => {
       describe:
         "Used car buying and selling platforms Implements Dashboard/Admin/Payments.When a login seller he/she can add a product and see his products also the seller can Advertise.And Admin can delete any buyer and seller.",
         link: 'https://next-car-for-you.web.app/',
-        gitHub : 'https://github.com/NahidulNoman/next-car-for-you-client'
+        gitHub : 'https://github.com/NahidulNoman/next-car-for-you-client',
+        technology: ['Tailwind', 'React', 'MongoDB', 'Firebase' , 'Node.js', 'Express.js']
     },
     {
       id: 2,
@@ -21,7 +22,8 @@ const Portfolio = () => {
       describe:
         "A complete Food service and review site with a Google login feature.CRUD operation implements.People can also review any food and send their feedback.Users can also add their products and delete added products.",
         link : 'https://swipe-for-food-ee0f4.web.app/',
-        gitHub : 'https://github.com/NahidulNoman/swipe-for-food-client'
+        gitHub : 'https://github.com/NahidulNoman/swipe-for-food-client',
+        technology: ['React-Bootstrap', 'React', 'MongoDB', 'Firebase' , 'Node.js', 'Express.js']
     },
     {
       id: 3,
@@ -30,7 +32,8 @@ const Portfolio = () => {
       describe:
         "This is a learning platform web application.Users can see course details and download course information in PDF format.When any user wants to get premium access user has to log in first.",
         link : 'https://conquer-programming.web.app/',
-        gitHub : 'https://github.com/NahidulNoman/conquer-programming-client'
+        gitHub : 'https://github.com/NahidulNoman/conquer-programming-client',
+        technology: ['React-Bootstrap', 'React', 'JavaScript', 'Firebase' , 'Node.js']
     },
   ];
 
@@ -46,19 +49,22 @@ const Portfolio = () => {
         {projects.map((project) => (
           <div key={project.id} className="card  bg-white text-black shadow-xl">
             <figure>
-              <img src={project.projectImg} alt="Shoes" />
+              <img src={project.projectImg} alt="Shoes" className="hover:scale-125 hover:duration-500"/>
             </figure>
             <div className="card-body">
               <h2 className="card-title">
                 {project.projectName}
-                <div className="badge badge-secondary">NEW</div>
               </h2>
               <p>
-                {project.describe ? project.describe.slice(0, 150) + "..." : ""}
+                {
+                    project.technology.map((tech,i) => <div key={i} className="badge badge-outline m-2">{tech}</div>)
+                }
+              
               </p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline"><a href={`${project.link}`} target={`_blank`}>Live Site</a></div>
-                <div className="badge badge-outline"><a href={`${project.gitHub}`} target={`_blank`}>GitHub</a></div>
+                <div className="badge badge-outline bg-primary text-white hover:bg-sky-700 hover:scale-125"><a href={`${project.link}`} target={`_blank`}>Live Site</a></div>
+                <div className="badge badge-outline bg-secondary text-white hover:bg-sky-700 hover:scale-125"><a href={`${project.gitHub}`} target={`_blank`}>GitHub</a></div>
+                <div className="badge badge-outline bg-accent  hover:bg-sky-700 hover:scale-125 text-white">Details</div>
               </div>
             </div>
           </div>

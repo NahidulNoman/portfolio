@@ -10,9 +10,9 @@ const Footer = () => {
         <a href="#about" className="link link-hover">
           About
         </a>
-        <a href="#skill" className="link link-hover">
+        {/* <a href="#skill" className="link link-hover">
           Skill
-        </a>
+        </a> */}
         <a href="#portfolio" className="link link-hover">
           Portfolio
         </a>

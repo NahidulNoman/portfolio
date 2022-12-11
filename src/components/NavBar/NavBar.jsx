@@ -15,11 +15,11 @@ const NavBar = () => {
           About
         </a>
       </li>
-      <li className="font-semibold">
+      {/* <li className="font-semibold">
         <a href="#skill" className="rounded-lg">
         Skill
         </a>
-      </li>
+      </li> */}
       <li className="font-semibold">
         <a href="#portfolio" className="rounded-lg">
         Portfolio
