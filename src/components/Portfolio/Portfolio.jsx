@@ -3,6 +3,11 @@ import car from "../../asset/next-car.png";
 import food from "../../asset/for-food.png";
 import conquer from "../../asset/conquerDev.png";
 import { Link } from "react-router-dom";
+import fire from '../../asset/fire-news.png';
+import football from '../../asset/football.png';
+import news from '../../asset/news.png';
+import quiz from '../../asset/quiz.png';
+import worldCup from '../../asset/world-cup.png';
 
 const Portfolio = () => {
   const projects = [
@@ -57,6 +62,90 @@ const Portfolio = () => {
         "JavaScript",
         "Firebase",
         "Node.js",
+      ],
+    },
+    {
+      id: 4,
+      projectCategory : 'fireNews',
+      projectImg: fire,
+      projectName: "Fire News Portal",
+      describe:
+        "This is a learning platform web application.Users can see course details and download course information in PDF format.When any user wants to get premium access user has to log in first.",
+      link: "https://fire-news-portal.web.app/",
+      gitHub: "https://github.com/NahidulNoman/fire-news-client",
+      technology: [
+        "React-Bootstrap",
+        "React",
+        "JavaScript",
+        "Firebase",
+        "Node.js",
+        "Rest API"
+      ],
+    },
+    {
+      id: 5,
+      projectCategory : 'football',
+      projectImg: football,
+      projectName: "Select Your Player",
+      describe:
+        "This is a learning platform web application.Users can see course details and download course information in PDF format.When any user wants to get premium access user has to log in first.",
+      link: "https://paris-saint-germain-dom.netlify.app/",
+      gitHub: "https://github.com/NahidulNoman/select-players-dom",
+      technology: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "DOM",
+      ],
+    },
+    {
+      id: 6,
+      projectCategory : 'news',
+      projectImg: news,
+      projectName: "Global News Portal",
+      describe:
+        "This is a learning platform web application.Users can see course details and download course information in PDF format.When any user wants to get premium access user has to log in first.",
+      link: "https://global-news-portal.netlify.app/",
+      gitHub: "https://github.com/NahidulNoman/global-news-portal",
+      technology: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "DOM",
+      ],
+    },
+    {
+      id: 7,
+      projectCategory : 'quiz',
+      projectImg: quiz,
+      projectName: "Delta Quiz",
+      describe:
+        "This is a learning platform web application.Users can see course details and download course information in PDF format.When any user wants to get premium access user has to log in first.",
+      link: "https://delta-quiz-3027b9.netlify.app/",
+      gitHub: "https://github.com/NahidulNoman/delta-quiz",
+      technology: [
+        "HTML",
+        "CSS",
+        "React-Bootstrap",
+        "React",
+        "Rechart.js",
+      ],
+    },
+    {
+      id: 8,
+      projectCategory : 'worldCup',
+      projectImg: worldCup,
+      projectName: "World Cup Demo",
+      describe:
+        "This is a learning platform web application.Users can see course details and download course information in PDF format.When any user wants to get premium access user has to log in first.",
+      link: "https://nahidulnoman.github.io/world-cup-demo-site/matches.html",
+      gitHub: "https://github.com/NahidulNoman/world-cup-demo-site",
+      technology: [
+        "HTML",
+        "CSS",
+        "Media Query"
       ],
     },
   ];
