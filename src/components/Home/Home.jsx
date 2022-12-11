@@ -2,12 +2,13 @@ import React from "react";
 import nahidul from "../../asset/nahidul.jpg";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import Portfolio from "../Portfolio/Portfolio";
 
 const Home = () => {
   return (
     <>
-      <div className="hero lg:mt-20">
+      <div id="home" className="hero lg:mt-20">
       <div className="hero-content flex-col-reverse lg:flex-row-reverse">
         <img
           src={nahidul}
@@ -28,6 +29,7 @@ const Home = () => {
     <About></About>
     <Portfolio></Portfolio>
     <Contact></Contact>
+    <Footer></Footer>
     </>
   );
 };

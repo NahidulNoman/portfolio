@@ -6,9 +6,9 @@ const NavBar = () => {
   const menuItems = (
     <>
       <li className="font-semibold ">
-        <Link to="/home" className="rounded-lg">
+        <a href="#home" className="rounded-lg">
           Home
-        </Link>
+        </a>
       </li>
       <li className="font-semibold">
         <a href="#about" className="rounded-lg ">
@@ -16,9 +16,9 @@ const NavBar = () => {
         </a>
       </li>
       <li className="font-semibold">
-        <Link to="/skill" className="rounded-lg">
+        <a href="#skill" className="rounded-lg">
         Skill
-        </Link>
+        </a>
       </li>
       <li className="font-semibold">
         <a href="#portfolio" className="rounded-lg">
