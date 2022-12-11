@@ -11,9 +11,9 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="font-semibold">
-        <Link to="/about" className="rounded-lg">
+        <a href="#about" className="rounded-lg">
           About
-        </Link>
+        </a>
       </li>
       <li className="font-semibold">
         <Link to="/skill" className="rounded-lg">
@@ -26,9 +26,9 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="font-semibold">
-        <Link to="/contact" className="rounded-lg">
+        <a href="#contact" className="rounded-lg">
         Contact
-        </Link>
+        </a>
       </li>
     </>
   );

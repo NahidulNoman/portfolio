@@ -16,7 +16,7 @@ const Contact = () => {
       };
 
   return (
-    <div className="w-96 mx-auto bg-slate-300 rounded-lg  mt-28 mb-10">
+    <div id="contact" className="w-96 mx-auto bg-slate-300 rounded-lg  mt-28 mb-10">
       <form ref={form} onSubmit={sendEmail} className="text-center p-7">
         <h2 className="text-3xl font-bold mb-6 text-primary text-center">
           Contact Me
