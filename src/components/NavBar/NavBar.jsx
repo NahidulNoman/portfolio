@@ -26,6 +26,11 @@ const NavBar = () => {
         </a>
       </li>
       <li className="font-semibold">
+        <a href="#portfolio" className="rounded-lg">
+        Blog
+        </a>
+      </li>
+      <li className="font-semibold">
         <a href="#contact" className="rounded-lg">
         Contact
         </a>
