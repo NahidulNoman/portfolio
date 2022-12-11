@@ -145,7 +145,8 @@ const Portfolio = () => {
       technology: [
         "HTML",
         "CSS",
-        "Media Query"
+        "Media Query",
+        "Front Awesome"
       ],
     },
   ];
