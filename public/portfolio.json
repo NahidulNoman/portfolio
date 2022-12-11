@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "projectCategory": "car",
+      "imageLink1" : "https://i.ibb.co/Vw27J1s/next-car.png",
+      "imageLink2" : "https://i.ibb.co/g9cHdXT/next-car2.png",
+      "imageLink3" : "https://i.ibb.co/5s96mnf/next-car-3.png",
+      "projectName": "Next car for you",
+      "describe": "Used car buying and selling platforms Implements Dashboard/Admin/Payments.When a login seller he/she can add a product and see his products also the seller can Advertise.And Admin can delete any buyer and seller.",
+      "link": "https://next-car-for-you.web.app/",
+      "gitHub": "https://github.com/NahidulNoman/next-car-for-you-client",
+      "technology": [
+        "Tailwind",
+        "React",
+        "MongoDB",
+        "Firebase",
+        "Node.js",
+        "Express.js"
+      ]
+    },
+    {
+      "id": 2,
+      "projectCategory": "food",
+      "imageLink1" : "https://i.ibb.co/ctZ5HfW/for-food.png",
+      "imageLink2" : "https://i.ibb.co/9ZSsdch/for-food2.png",
+      "imageLink3" : "https://i.ibb.co/PhCVgj3/for-food3.png",
+      "projectName": "Swipe for food",
+      "describe": "A complete Food service and review site with a Google login feature.CRUD operation implements.People can also review any food and send their feedback.Users can also add their products and delete added products.",
+      "link": "https://swipe-for-food-ee0f4.web.app/",
+      "gitHub": "https://github.com/NahidulNoman/swipe-for-food-client",
+      "technology": [
+        "React-Bootstrap",
+        "React",
+        "MongoDB",
+        "Firebase",
+        "Node.js",
+        "Express.js"
+      ]
+    },
+    {
+      "id": 3,
+      "projectCategory": "conquer",
+      "imageLink1" : "https://i.ibb.co/SVpvHFz/conquer3.png",
+      "imageLink2" : "https://i.ibb.co/GRWWJdr/conquer2.png",
+      "imageLink3" : "https://i.ibb.co/LSG6WFM/conquer-Dev.png",
+      "projectName": "ConQuer.Dev",
+      "describe": "This is a learning platform web application.Users can see course details and download course information in PDF format.When any user wants to get premium access user has to log in first.",
+      "link": "https://conquer-programming.web.app/",
+      "gitHub": "https://github.com/NahidulNoman/conquer-programming-client",
+      "technology": [
+        "React-Bootstrap",
+        "React",
+        "JavaScript",
+        "Firebase",
+        "Node.js"
+      ]
+    }
+  ]

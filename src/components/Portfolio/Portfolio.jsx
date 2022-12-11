@@ -2,11 +2,13 @@ import React from "react";
 import car from "../../asset/next-car.png";
 import food from "../../asset/for-food.png";
 import conquer from "../../asset/conquerDev.png";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      projectCategory : 'car',
       projectImg: car,
       projectName: "Next car for you",
       describe:
@@ -24,6 +26,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      projectCategory : 'food',
       projectImg: food,
       projectName: "Swipe for food",
       describe:
@@ -41,6 +44,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      projectCategory : 'conquer',
       projectImg: conquer,
       projectName: "ConQuer.Dev",
       describe:
@@ -96,7 +100,7 @@ const Portfolio = () => {
                   </a>
                 </div>
                 <div className="badge badge-outline bg-accent  hover:bg-sky-700 hover:scale-125 text-white">
-                  Details
+                  <Link to={`/portfolio/${project.projectCategory}`}>Details</Link>
                 </div>
               </div>
             </div>

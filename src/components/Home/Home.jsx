@@ -53,7 +53,7 @@ const Home = () => {
             <button className="btn btn-outline hover:bg-primary hover:scale-90 hover:text-white hover:duration-700">
               <a
                 target={`_blank`}
-                href="https://drive.google.com/file/d/1lQNC_QNCKTdAr4Bq5XyKl9nf0xQCqlKZ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1JWfIsLPC3LnYVOROvG6sPsIZVBpCrZSr/view"
               >
                 See Resume
               </a>
